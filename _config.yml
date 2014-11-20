@@ -1,2 +1,6 @@
 collections:
     - fronts
+exclude:
+    - 'README.md'
+    - 'Gemfile'
+    - 'Gemfile.lock'
