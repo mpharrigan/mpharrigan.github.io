@@ -1,0 +1,36 @@
+
+{% include jheader.html %}
+
+<div class="jumbotron">
+    <div class="container">
+    
+        <h1>{{ page.h1 }}</h1>
+        <div class="row">
+            <div class="col-xs-8">
+                {{ content }}
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">
+                {{ page.buttonText }} &raquo;
+            </a></p>
+        </div>
+        <div class="col-xs-4">
+            <img src="assets/render_top.png" class="img-responsive"/>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      {% for front in site.fronts %}
+        <div class="col-md-4">
+            <h2>{{ front.title }}</h2>
+            {{ front.output }}
+            <p><a class="btn btn-default" href="#" role="button">
+                View details &raquo;
+            </a></p>
+        </div>
+      {% endfor %}
+  </div>
+
+<!-- final div closed in footer -->
+{% include jfooter.html %}
