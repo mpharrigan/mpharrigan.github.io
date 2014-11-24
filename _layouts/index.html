@@ -1,0 +1,31 @@
+
+{% include jheader.html %}
+
+<div class="jumbotron">
+    <div class="container">
+    
+        <div class="row">
+            <div class="col-xs-8">
+                <h1>{{ page.h1 }}</h1>
+                {{ content }}
+        </div>
+        <div class="col-xs-4">
+            <img src="{{site.url}}/assets/{{page.image}}"
+            class="img-responsive"/>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      {% for front in site.fronts %}
+        <div class="col-md-4">
+            <h2>{{ front.title }}</h2>
+            {{ front.output }}
+        </div>
+      {% endfor %}
+  </div>
+</div>
+
+{% include jfooter.html %}

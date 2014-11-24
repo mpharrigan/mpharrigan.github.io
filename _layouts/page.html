@@ -1,0 +1,19 @@
+
+{% include jheader.html %}
+
+<div class="container">
+    <div class="page-header">
+        <h1>{{ page.title }}
+            {% if page.subTitle %}
+            <small>and subtext</small>
+            {% endif %}
+        </h1>
+    </div>
+    <div class="row">
+        <div class=col-xs-12">
+            {{ content }}
+        </div>
+    </div>
+</div>
+
+{% include jfooter.html %}

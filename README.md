@@ -1,4 +1,6 @@
 mpharrigan.github.io
 ====================
 
-Github page
+[http://mpharrigan.com](http://mpharrigan.com)
+
+My personal website hosted using Github pages with Jekyll
