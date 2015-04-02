@@ -1,16 +1,17 @@
 ---
 layout: page
 title: About Matthew
+image: ggb.jpg
 ---
 
-Born and raised in sunny Connecticut, I wised up and made a bee line
-for California where I earned my **B.S. in Chemistry** at **Caltech**
-    in 2013. I worked with the **Blake Group** (2011) researching
-    *ab-initio* quantum computation of THz vibrational modes to
-    compliment the lab's research in terahertz spectroscopy.  I
-    interned at **Pfizer** (2012) developing software tools for
-    medicinal and computational chemists and applied cheminformatic
-    methods for small molecule drug design.
+Born and raised in Connecticut, I moved to California at the first
+available opportunity where I earned my **B.S. in Chemistry** at
+**Caltech** in 2013. I worked with the **Blake Group** (2011)
+researching *ab-initio* quantum computation of THz vibrational modes
+to compliment the lab's research in terahertz spectroscopy.  I
+interned at **Pfizer** (2012) developing software tools for medicinal
+and computational chemists and applied cheminformatic methods for
+small molecule drug design.
 
 I entered the **Chemistry PhD** program at **Stanford** in 2013 where
 I am working with **Vijay Pande** to study protein dynamics through
