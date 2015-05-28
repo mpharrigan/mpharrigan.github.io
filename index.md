@@ -17,7 +17,7 @@ dynamics and [MSMBuilder] with [MDTraj] for cutting-edge,
 statistically-motivated analysis.
 
 My research interests include: accelerated sampling, 
-solvent dynamics, and voltage-gated sodium channels.
+solvent dynamics, and ion channels.
 
 [tools]: {{site.url}}/software/
 
