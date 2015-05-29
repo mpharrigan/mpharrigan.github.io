@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-image: render-top.png
+image: kchan.png
 ---
 
 ## Simulation
@@ -24,6 +24,10 @@ calculation that has ever been attempted.
 Analysis
 
 ### Adaptive sampling
+
+Adaptive sampling.
+
+## Papers
 
 {% include_relative citations.html %}
 
