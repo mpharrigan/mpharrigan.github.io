@@ -5,3 +5,5 @@ exclude:
     - 'Gemfile'
     - 'Gemfile.lock'
     - 'confusing_command_to_run_jekyll'
+    - 'citation-style-language'
+    - 'citations'
