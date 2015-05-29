@@ -25,5 +25,8 @@ Analysis
 
 ### Adaptive sampling
 
+{% include_relative citations.html %}
+
+
 <!-- vim: tw=70
 -->
