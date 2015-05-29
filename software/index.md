@@ -1,6 +1,17 @@
 ---
 layout: page
 title: Software
+image: code.png
 ---
 
-This is software
+# MSMBuilder
+
+Used to build MSMs
+
+## Wetmsm
+
+Plugin to implement solvent shells
+
+# MDTraj
+
+Used to load trajectories
