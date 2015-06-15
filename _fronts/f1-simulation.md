@@ -1,5 +1,6 @@
 ---
 title: Simulation
+link: research/
 ---
 
 Molecular dynamics offers atom-level resolution
