@@ -16,7 +16,7 @@ study of the voltage gated sodium channel.
 We're studying the dynamics of transitions between the open and closed
 states mediated by the voltage sensing domains. Our experimental
 collaborators will probe sodium channel function through the use of
-natural toxins secreted by frogs in the Amazon rainforest.  By
+natural toxins secreted by frogs in the Amazon rain forest.  By
 combining theory and experiment, we can propose and test derivatives
 of these toxins which have positive therapeutic effects.
 
