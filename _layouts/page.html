@@ -5,14 +5,21 @@
     <div class="page-header">
         <h1>{{ page.title }}
             {% if page.subTitle %}
-            <small>and subtext</small>
+            <small>{{ page.subTitle }}</small>
             {% endif %}
         </h1>
     </div>
     <div class="row">
-        <div class=col-xs-12">
+        <div class="col-sm-8">
             {{ content }}
         </div>
+
+        {% if page.image %}
+        <div class="col-sm-4">
+            <img src="{{site.url}}/assets/{{page.image}}"
+            class="img-responsive"/>
+        </div>
+        {% endif %}
     </div>
 </div>
 

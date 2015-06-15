@@ -1,5 +1,6 @@
 ---
 title: Analysis
+link: research/
 ---
 
 With 100,000 atoms in 1 million snapshots,

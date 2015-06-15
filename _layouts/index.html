@@ -5,11 +5,15 @@
     <div class="container">
     
         <div class="row">
-            <div class="col-xs-8">
+            <div class="col-sm-8">
                 <h1>{{ page.h1 }}</h1>
                 {{ content }}
+            <p><a class="btn btn-primary btn-lg"
+                href="{{site.url}}/{{page.buttonLink}}" role="button">
+                {{ page.buttonText }} &raquo;
+            </a></p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-sm-4">
             <img src="{{site.url}}/assets/{{page.image}}"
             class="img-responsive"/>
         </div>
@@ -23,6 +27,9 @@
         <div class="col-md-4">
             <h2>{{ front.title }}</h2>
             {{ front.output }}
+            <p><a class="btn btn-default" href="{{site.url}}/{{front.link}}" role="button">
+                View details &raquo;
+            </a></p>
         </div>
       {% endfor %}
   </div>
