@@ -2,8 +2,6 @@
 layout: index
 title: Matthew Harrigan
 h1: Matthew P. Harrigan
-buttonText: Learn more
-buttonLink: about
 image: mph.jpg
 ---
 
