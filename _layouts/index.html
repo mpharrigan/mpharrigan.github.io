@@ -2,16 +2,16 @@
 layout: bootstrap
 ---
 
-<div class="jumbotron">
+<div class="jumbotron jumbotron-fluid">
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
-        <h1 style="margin-top: 0">{{ page.h1 }}</h1>
+        <h1 class="display-4">{{ page.h1 }}</h1>
         {{ content }}
       </div>
       <div class="col-sm-4">
         <img src="{{site.url}}/assets/{{page.image}}"
-             class="img-responsive"/>
+             class="img-fluid"/>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@ layout: bootstrap
       <h2>{{ front.title }}</h2>
       {{ front.output }}
       <p>
-        <a class="btn btn-default" role="button"
+        <a class="btn btn-secondary" role="button"
            href="{{site.url}}/{{front.link}}">View details &raquo;</a>
       </p>
     </div>
