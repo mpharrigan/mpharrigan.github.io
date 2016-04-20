@@ -6,3 +6,9 @@ exclude:
     - 'Gemfile.lock'
     - 'jekyll.sh'
     - 'citations'
+defaults:
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        excerpt_seperator: "<!--more-->"
