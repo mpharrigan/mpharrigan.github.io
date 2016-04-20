@@ -13,3 +13,4 @@ defaults:
         type: "posts"
       values:
         excerpt_seperator: "<!--more-->"
+        active: posts

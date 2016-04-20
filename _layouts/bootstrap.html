@@ -31,15 +31,14 @@
 
         <div class="collapse navbar-toggleable-xs" id="navbar">
           <ul class="nav navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="{{site.url}}/about/">About</a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="{{site.url}}/research/">Research</a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="{{site.url}}/software/">Software</a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="{{site.url}}/posts/">Posts</a>
+            {% for pg in site.data.pages %}
+            <!-- check which link we should activate -->
+            <li class="nav-item{% if pg.link == page.active %} active{% endif %}">
+              <a class="nav-link" href="{{site.url}}/{{pg.link}}/">
+                {{pg.displaytext}}
+              </a>
             </li>
+            {% endfor %}
           </ul>
         </div>
       </div>
