@@ -23,13 +23,13 @@
   <body>
     <nav class="navbar navbar-dark bg-inverse" role="navigation">
       <div class="container">
-        <a class="navbar-brand" href="{{site.url}}/">mph</a>
         <button type="button" class="navbar-toggler hidden-sm-up" 
                 data-toggle="collapse" data-target="#navbar">
           &#9776;
         </button>
 
         <div class="collapse navbar-toggleable-xs" id="navbar">
+          <a class="navbar-brand" href="{{site.url}}/">mph</a>
           <ul class="nav navbar-nav">
             {% for pg in site.data.pages %}
             <!-- check which link we should activate -->
