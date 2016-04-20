@@ -1,12 +1,12 @@
 collections:
     - fronts
 exclude:
-    - 'README.md'
-    - 'Gemfile'
-    - 'Gemfile.lock'
-    - 'jekyll.sh'
-    - 'citations'
-    - 'bootstrap'
+    - '/README.md'
+    - '/Gemfile'
+    - '/Gemfile.lock'
+    - '/jekyll.sh'
+    - '/citations/'
+    - '/bootstrap/'
 defaults:
     - scope:
         path: ""
