@@ -14,4 +14,4 @@ defaults:
       values:
         excerpt_seperator: "<!--more-->"
         active: posts
-        layout: page
+        layout: post
