@@ -1,0 +1,46 @@
+- title: FAHBench
+  image: kchan.png
+  links:
+    - href: https://fahbench.github.io/
+      text: fahbench.github.io
+    - href: https://github.com/fahbench/fahbench/
+      text: GitHub
+  content: |+
+    FAHBench is a GPU benchmarking tool based on OpenMM and molecular
+    dynamics. Folding@Home donors test and report scores for GPUs to find
+    the best performance for a given price.
+- title: MSMBuilder
+  image: kchan.png
+  links:
+    - href: http://msmbuilder.org
+      text: msmbuilder.org
+    - href: https://github.com/msmbuilder/msmbuilder
+      text: GitHub
+  content: |+
+    MSMBuilder is a python package which implements a series of
+    statistical models for high-dimensional time-series. It is
+    particularly focused on the analysis of atomistic simulations of
+    biomolecular dynamics. For example, MSMBuilder has been used to model
+    protein folding and conformational change from molecular dynamics (MD)
+    simulations.
+- title: Wetmsm
+  image: kinetic_group.png
+  links:
+    - href: https://github.com/mpharrigan/wetmsm
+      text: GitHub
+  content: |+
+    `wetmsm` functions as a plugin for MSMBuilder. It implements the
+    "solvent shells" metric for investigating water, lipids, and other
+    solvents in the MSM framework. 
+- title: MDTraj
+  image: kchan.png
+  links:
+    - href: http://mdtraj.org
+      text: mdtraj.org
+    - href: https://github.com/mdtraj/mdtraj
+      text: GitHub
+  content: |+
+    MDTraj is a python library that allows researchers to read, write and
+    analyze any of the dazzling array of MD formats in common use.
+
+# vim: ts=2 sw=2 et tw=75
