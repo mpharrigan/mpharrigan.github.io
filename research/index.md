@@ -1,11 +1,18 @@
 ---
-layout: page
+layout: fullpage
 title: Research
-image: kchan.png
 active: research
 ---
 
+<!-- ROW 1 -->
+<div class="row">
+<div class="col-sm-3">
+<img src="{{site.url}}/assets/kchan.png" class="img-fluid" />
+</div>
 
+<div class="col-sm-9">
+
+{{"
 ## Ion channels
 
 Sodium channels initiate signaling in neurons and other cells which go
@@ -21,10 +28,23 @@ natural toxins secreted by frogs in the Amazon rain forest.  By
 combining theory and experiment, we can propose and test derivatives
 of these toxins which have positive therapeutic effects.
 
-
 [dubois]: http://duboislab.stanford.edu/
 [folding@home]: https://folding.stanford.edu/
 
+" | markdownify}}
+</div>
+</div>
+
+<!-- ROW 2 -->
+<div class="row">
+<div class="col-sm-3">
+<!--img src="{{site.url}}/assets/kchan.png" class="img-fluid" /-->
+TODO: Image here
+</div>
+
+<div class="col-sm-9">
+
+{{"
 ## Markov Modelling
 
 Our lab develops and applies novel statistical techniques to
@@ -51,9 +71,17 @@ adaptive sampling scheme, uncertainty in particular MSM state
 transition probabilities are used to seed new simulations to speed
 convergence of the model.
 
-## Papers
+" | markdownify}}
+</div>
+</div>
+
+
+<!-- ROW 3 -->
+<div class="row"><div class="col-lg-9 col-xs-12">
+<h2>Papers</h2>
 
 {% include_relative citations.html %}
+</div></div>
 
 
 <!-- vim: tw=70
