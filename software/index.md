@@ -7,7 +7,7 @@ active: software
 <!-- see _data/content/software.yaml for content -->
 {% for cont in site.data.content.software %}
 <div class="row">
-  <div class="col-sm-3">
+  <div class="col-lg-2 col-sm-3">
     <img src="{{site.url}}/assets/{{cont.image}}" class="img-fluid" />
   </div>
   <div class="col-lg-7 col-sm-9">

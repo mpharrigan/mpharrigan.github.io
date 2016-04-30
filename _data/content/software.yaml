@@ -1,5 +1,5 @@
 - title: FAHBench
-  image: kchan.png
+  image: logos/fahbench.jpg
   links:
     - href: https://fahbench.github.io/
       text: fahbench.github.io
@@ -10,7 +10,7 @@
     dynamics. Folding@Home donors test and report scores for GPUs to find
     the best performance for a given price.
 - title: MSMBuilder
-  image: kchan.png
+  image: logos/msmbuilder.png
   links:
     - href: http://msmbuilder.org
       text: msmbuilder.org
@@ -33,7 +33,7 @@
     "solvent shells" metric for investigating water, lipids, and other
     solvents in the MSM framework. 
 - title: MDTraj
-  image: kchan.png
+  image: logos/mdtraj.png
   links:
     - href: http://mdtraj.org
       text: mdtraj.org
