@@ -1,16 +1,17 @@
 ---
 layout: bootstrap
+title: Matthew Harrigan
 ---
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
-        <h1 class="display-4">{{ page.h1 }}</h1>
-        {{ content }}
+        <h1 class="display-4">Matthew P. Harrigan</h1>
+        {{ site.data.content.index.jumbo | markdownify }}
       </div>
       <div class="col-sm-4">
-        <img src="{{site.url}}/assets/{{page.image}}"
+        <img src="{{site.url}}/assets/{{site.data.content.index.image}}"
              class="img-fluid"/>
       </div>
     </div>
@@ -19,13 +20,13 @@ layout: bootstrap
 
 <div class="container">
   <div class="row">
-    {% for front in site.fronts %}
+    {% for blurb in site.data.content.index.blurbs %}
     <div class="col-md-4">
-      <h2>{{ front.title }}</h2>
-      {{ front.output }}
+      <h2>{{ blurb.title }}</h2>
+      {{ blurb.text | markdownify }}
       <p>
         <a class="btn btn-secondary" role="button"
-           href="{{site.url}}/{{front.link}}">View details &raquo;</a>
+           href="{{site.url}}/{{blurb.link}}">View details &raquo;</a>
       </p>
     </div>
     {% endfor %}
