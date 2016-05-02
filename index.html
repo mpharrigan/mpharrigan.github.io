@@ -1,0 +1,38 @@
+---
+layout: bootstrap
+title: Matthew Harrigan
+---
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h1 class="display-4">Matthew P. Harrigan</h1>
+        {{ site.data.content.index.jumbo | markdownify }}
+        <p><a href="{{site.url}}/about/">Read more &raquo;</a></p>
+      </div>
+      <div class="col-sm-4">
+        <img src="{{site.url}}/assets/{{site.data.content.index.image}}"
+             class="img-fluid"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% for blurb in site.data.content.index.blurbs %}
+    <div class="col-md-4">
+      <h2>{{ blurb.title }}</h2>
+      {{ blurb.text | markdownify }}
+      <p class="readmore">
+        <a href="{{site.url}}/{{blurb.link}}">Read more &raquo;</a>
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!--
+vim: ts=2 sw=2 et
+-->

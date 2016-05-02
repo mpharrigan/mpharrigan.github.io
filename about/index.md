@@ -2,6 +2,7 @@
 layout: page
 title: About Matthew
 image: ggb.jpg
+active: about
 ---
 
 Born and raised in Connecticut, I moved to California at the first

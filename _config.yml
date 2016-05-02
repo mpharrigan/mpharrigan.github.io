@@ -1,14 +1,21 @@
 collections:
     - fronts
 exclude:
-    - 'README.md'
-    - 'Gemfile'
-    - 'Gemfile.lock'
-    - 'jekyll.sh'
-    - 'citations'
+    - '/README.md'
+    - '/Gemfile'
+    - '/Gemfile.lock'
+    - '/jekyll.sh'
+    - '/citations/'
+    - '/bootstrap/'
 defaults:
     - scope:
         path: ""
         type: "posts"
       values:
         excerpt_seperator: "<!--more-->"
+        active: posts
+        layout: post
+
+compress_html:
+    clippings: all
+    comments: all
