@@ -1,3 +1,4 @@
+safe: True
 collections:
     - fronts
 exclude:
@@ -5,8 +6,38 @@ exclude:
     - '/Gemfile'
     - '/Gemfile.lock'
     - '/jekyll.sh'
+    - '/ignores.sh'
     - '/citations/'
-    - '/bootstrap/'
+      # The following was generated with the ignores.sh script
+    - "/bootstrap/CNAME"
+    - "/bootstrap/package.json"
+    - "/bootstrap/CHANGELOG.md"
+    - "/bootstrap/Gruntfile.js"
+    - "/bootstrap/js"
+    - "/bootstrap/sache.json"
+    - "/bootstrap/bower_components"
+    - "/bootstrap/grunt"
+    - "/bootstrap/CONTRIBUTING.md"
+    - "/bootstrap/bower.json"
+    - "/bootstrap/Gemfile"
+    - "/bootstrap/Gemfile.lock"
+    - "/bootstrap/scss"
+    - "/bootstrap/LICENSE"
+    - "/bootstrap/nuget"
+    - "/bootstrap/composer.json"
+    - "/bootstrap/_config.yml"
+    - "/bootstrap/package.js"
+    - "/bootstrap/README.md"
+    - "/bootstrap/dist/js/bootstrap.js"
+    - "/bootstrap/dist/js/npm.js"
+    - "/bootstrap/dist/js/jquery.slim.js"
+    - "/bootstrap/dist/js/jquery.js"
+    - "/bootstrap/dist/css/bootstrap.css"
+    - "/bootstrap/dist/css/bootstrap.css.map"
+    - "/bootstrap/dist/js/jquery.min.map"
+    - "/bootstrap/dist/js/jquery.slim.min.map"
+    - "/bootstrap/dist/css/bootstrap.min.css.map"
+    - "/bootstrap/dist/css/bootstrap.css.map"
 defaults:
     - scope:
         path: ""
