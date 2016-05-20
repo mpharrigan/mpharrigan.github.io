@@ -20,7 +20,7 @@ over ssh to piggy-back on the security it provides.
     ssh -L 8888:localhost:8888 user@hostname
 
 <div class="alert alert-danger" role="alert">
-  <strong>Warning:</strong> If you share the server with any other users,
+  <strong>Warning:</strong> If you share the remote host with any other users,
   they can get to any port! You have to set up TLS on your 
   notebook server as well.
 </div>
