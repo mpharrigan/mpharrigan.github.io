@@ -21,6 +21,8 @@ exclude:
     - "/bootstrap/bower.json"
     - "/bootstrap/Gemfile"
     - "/bootstrap/Gemfile.lock"
+    - "/bootstrap/node_modules"
+    - "/bootstrap/docs"
     - "/bootstrap/scss"
     - "/bootstrap/LICENSE"
     - "/bootstrap/nuget"
