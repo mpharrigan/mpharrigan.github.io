@@ -54,6 +54,7 @@ socket with no ill effects. Edit `.ssh/config`:
 
 You can make things really easy with a couple of aliases. Edit `.bashrc`:
 
+{: .language-bash}
     alias hname-up='ssh -fNTML 8888:localhost:8888 hostname'
     alias hname-status='ssh -TO check hostname'
     alias hname-down='ssh -TO exit hostname'
