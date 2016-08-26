@@ -1,0 +1,11 @@
+.highlight {
+    padding: 1rem;
+    margin: 1rem -1rem;
+    background-color: #f7f7f9;
+
+    @include media-breakpoint-up(sm) {
+        padding: 1rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

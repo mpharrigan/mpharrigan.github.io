@@ -8,7 +8,7 @@ active: research
 {% for cont in site.data.content.research %}
 <div class="row">
 <div class="col-sm-3">
-<img src="{{site.url}}/assets/{{cont.image}}" class="img-fluid" />
+<img src="{{cont.image}}" class="img-fluid" />
 </div>
 <div class="col-sm-9">
 <h2>{{cont.title}}</h2>

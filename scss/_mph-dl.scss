@@ -1,0 +1,12 @@
+// Make all description links bootstrap horizontal by default
+dl {
+    @extend .row;
+}
+
+dt {
+    @extend .col-lg-3;
+}
+
+dd {
+    @extend .col-lg-9;
+}
