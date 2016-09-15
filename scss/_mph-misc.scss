@@ -1,0 +1,9 @@
+// Move content down a bit
+div.mph-content {
+    margin-top: 1rem;
+}
+
+// Jumbotron text automatically "lead"
+div.jumbotron p {
+    @extend .lead;
+}
