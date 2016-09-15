@@ -19,8 +19,19 @@ module.exports = function (grunt) {
                     'assets/style.css': 'scss/mph.scss'
                 }
             }
+        },
+        copy: {
+            main: {
+                files: [
+                    {src: 'node_modules/bootstrap/dist/js/bootstrap.min.js',
+                     dest: 'assets/bootstrap.min.js'},
+                    {src: 'node_modules/jquery/dist/jquery.min.js',
+                     dest: 'assets/jquery.min.js'}
+                ]
+            }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.registerTask('default', ['sass']);
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.registerTask('default', ['sass', 'copy']);
 };

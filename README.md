@@ -9,4 +9,4 @@ Building
 --------
 
     npm install
-    grunt sass
+    grunt
