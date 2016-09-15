@@ -15,15 +15,17 @@ layout: compress
   </head>
 
   <body>
-    <nav class="navbar navbar-dark bg-inverse" role="navigation">
+    <nav class="navbar navbar-dark bg-inverse">
       <div class="container">
-        <button type="button" class="navbar-toggler hidden-sm-up" 
-                data-toggle="collapse" data-target="#navbar">
+        <button class="navbar-toggler hidden-sm-up bg-inverse" type="button"
+                data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false"
+                aria-label="Toggle navigation">
           &#9776;
         </button>
 
         <div class="collapse navbar-toggleable-xs" id="navbar">
-          <a class="navbar-brand" href="{{site.url}}/">mph</a>
+          <a class="navbar-brand pull-xs-none pull-sm-left" href="{{site.url}}/">mph</a>
           <ul class="nav navbar-nav">
             {% for pg in site.data.pages %}
             <!-- check which link we should activate -->
