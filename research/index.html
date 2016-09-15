@@ -1,0 +1,64 @@
+---
+layout: fullpage
+title: Research
+active: research
+---
+
+<!-- see _data/content/research.yaml for content -->
+{% for cont in site.data.research %}
+<div class="row">
+  <div class="col-sm-3">
+    <img src="{{cont.image}}" class="img-fluid" />
+  </div>
+  <div class="col-sm-9">
+    <h2>{{cont.title}}</h2>
+    {{cont.content | markdownify}}
+  </div>
+</div>
+{% endfor %}
+
+<style>
+  li.list-inline-item::before {
+    content: "\2013";
+    margin-right: 0.2rem;
+  }
+  .list-inline-item:not(:last-child){
+    margin-right: 0.8rem;
+  }
+  ol#pubs {
+    font-size: larger;
+  }
+  ol#pubs .pubcontent{
+    font-size: 1rem;
+  }
+  ol#pubs>li {
+    margin-bottom: 1rem;
+  }
+</style>
+
+<div class="row">
+  <div class="col-lg-9 col-xs-12">
+    <h2>Papers</h2>
+
+    <ol id="pubs">
+      {% for pub in site.data.publications %}
+      <li>
+        <div class="pubcontent">
+          <h5>{{pub.title}}</h5>
+          {% if pub.authors %}{{pub.authors | join: '; '}} <br/>{% endif %}
+          {{pub.date | date: '%B %d, %Y'}} <br/>
+          {{pub.journal}}. 
+          <a href="http://dx.doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+          {% if pub.pdf %}
+          <a href="{{pub.pdf}}">[pdf]</a>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+
+  </div>
+</div>
+
+<!-- vim: ts=2 sw=2 et
+-->
