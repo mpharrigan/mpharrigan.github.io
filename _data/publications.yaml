@@ -30,4 +30,18 @@
   doi: 10.1038/nmeth.3669
   date: 2015-12-01
 
+- title: "Osprey: Hyperparameter Optimization for Machine Learning"
+  authors:
+    - Robert T. McGibbon
+    - Carlos X. Hernández
+    - Matthew P. Harrigan
+    - Steven Kearnes
+    - Mohammad M. Sultan
+    - Stanislaw Jastrzebski
+    - Brooke E. Husic
+    - Vijay S. Pande
+  journal: "JOSS, 1, 5"
+  doi: 10.21105/joss.00034
+  date: 2016-09-07
+
 # vim: ts=2 sw=2 et
