@@ -28,6 +28,15 @@ module.exports = function (grunt) {
                     {src: 'node_modules/jquery/dist/jquery.min.js',
                      dest: 'assets/jquery.min.js'}
                 ]
+            },
+            pygments: {
+                src: 'node_modules/pygments-css/default.css',
+                dest: 'assets/pygments.css',
+                options: {
+                    process: function (content, srcpath) {
+                        return content.replace(/codehilite/g, 'highlight');
+                    }
+                }
             }
         }
     });
