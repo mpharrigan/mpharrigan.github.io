@@ -26,7 +26,7 @@ think computation should have a greater emphasis in undergraduate
 instruction and worked with the Stanford chem curriculum chair to
 **develop matlab exercises** for undergraduate p-chem classes (2013). 
 
-I enjoy programming in **Python, C# and C++** (and **Mathematica**, if
+I enjoy programming in **Python, C++, C#, and Javascript** (and **Mathematica**, if
 that counts). I don't-enjoy-but-can-program-nonetheless in **Java, C,
 and matlab**. 
 
