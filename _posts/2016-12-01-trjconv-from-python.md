@@ -3,6 +3,8 @@ title: Use Gromacs Utilities from Python
 excerpt: |+
     Gromacs has some neat command-line programs to interact with MD trajectories. A lot of them prompt for additional input when you're running them. I'll show you how to use Python's `subprocess` module to deal with this.
 ---
+    
+Gromacs has some neat command-line programs to interact with MD trajectories. A lot of them prompt for additional input when you're running them. I'll show you how to use Python's `subprocess` module to deal with this.
 
 ## Subprocess
 
