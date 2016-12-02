@@ -10,10 +10,12 @@ In Python, you can call an external program with the `subprocess` module. For ex
 
     import subprocess
     subprocess.check_call(['convert', 'image.jpg', 'image.png'])
+{: .language-python}
 
 will call ImageMagik's `convert` utility. Note that the arguments need to be given as a list of strings (not one big string). You might be tempted to do
 
     "convert image.jpg image.png".split()
+{: .language-python}
 
 to make it feel more natural. This might cause problems. You should use [shlex.split](https://docs.python.org/3/library/shlex.html#shlex.split) instead. 
 
@@ -59,6 +61,7 @@ You have to get down and dirty with the subprocess module to handle this. Instea
                          stdin=subprocess.PIPE)
     p.communicate(b'1\n0\n') # Center on protein, output everything
     p.wait()
+{: .language-python}
 
 We send a byte string (`b"this is a string of bytes"`) to the process after it has been started with the `communicate()` method. We give `subprocess` advanced notice that we're going to do this by telling it to read `stdin=subprocess.PIPE`. You can send whatever input you want here. Note that we use `\n` to send "enter". You can use multiple calls to `communicate` if you want:
 
@@ -66,6 +69,7 @@ We send a byte string (`b"this is a string of bytes"`) to the process after it h
     p.communicate('1\n')
     p.communicate('0\n')
     p.wait()
+{: .language-python}
 
 
 Now you can script gromacs like a champ!
