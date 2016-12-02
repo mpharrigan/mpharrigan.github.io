@@ -78,4 +78,6 @@ Now you can script gromacs like a champ!
 
 ## See also
 
-Gromacs has [some info](http://www.gromacs.org/Documentation/How-tos/Using_Commands_in_Scripts) about this problem (Thanks Nate!). Note that their examples use bash constructs, so you have to do `subprocess.call("...", shell=True)` for them to work. This is [generally a bad idea](https://docs.python.org/3/library/subprocess.html#security-considerations).
+ - Gromacs has [some info](http://www.gromacs.org/Documentation/How-tos/Using_Commands_in_Scripts) about this problem (Thanks Nate!). Note that their examples use bash constructs, so you have to do `subprocess.call("...", shell=True)` for them to work. This is [generally a bad idea](https://docs.python.org/3/library/subprocess.html#security-considerations).
+
+ - [GromacsWrapper](http://gromacswrapper.readthedocs.io/en/latest/) is a Python package that makes this seamless. Thanks to [Chris](https://twitter.com/jsci/status/804500872269070336) for pointing this out.
