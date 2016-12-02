@@ -68,8 +68,8 @@ You have to get down and dirty with the subprocess module to handle this. Instea
 We send a byte string (`b"this is a string of bytes"`) to the process after it has been started with the `communicate()` method. We give `subprocess` advanced notice that we're going to do this by telling it to read `stdin=subprocess.PIPE`. You can send whatever input you want here. Note that we use `\n` to send "enter". You can use multiple calls to `communicate` if you want:
 
     p = Popen(...)
-    p.communicate('1\n')
-    p.communicate('0\n')
+    p.communicate(b'1\n')
+    p.communicate(b'0\n')
     p.wait()
 {: .language-python}
 
