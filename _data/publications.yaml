@@ -43,5 +43,48 @@
   journal: "JOSS, 1, 5"
   doi: 10.21105/joss.00034
   date: 2016-09-07
+  
+- title: "MSMBuilder: Statistical Models for Biomolecular Dynamics"
+  authors:
+    - Matthew P. Harrigan
+    - Mohammad M. Sultan
+    - Carlos Xavier Hernandez
+    - Brooke E. Husic
+    - Peter Eastman
+    - Christian R. Schwantes
+    - Kyle A. Beauchamp
+    - Robert T. McGibbon
+    - Vijay S. Pande
+  journal: "bioRxiv"
+  doi: 10.1101/084020
+  date: 2016-10-30
+  
+- title: "OpenMM 7: Rapid Development of High Performance Algorithms for Molecular Dynamics"
+  authors:
+    - Peter Eastman
+    - Jason Swails
+    - John D. Chodera
+    - Robert T. McGibbon
+    - Yutong Zhao
+    - Kyle A. Beauchamp
+    - Lee-Ping Wang
+    - Andrew C. Simmonett
+    - Matthew P. Harrigan
+    - Bernard R. Brooks
+    - Vijay S. Pande
+  journal: "bioRxiv"
+  doi: 10.1101/091801
+  date: 2016-12-06
+  
+- title: "Markov modeling reveals novel intracellular modulation of the human TREK-2 selectivity filter"
+  authors:
+    - Matthew P. Harrigan
+    - Keri A. McKiernan
+    - Veerabahu Shanmugasundaram
+    - Rajiah Aldrin Denny
+    - Vijay S. Pande
+  journal: "bioRxiv"
+  doi: 10.1101/092155
+  date: 2016-12-07
 
 # vim: ts=2 sw=2 et
