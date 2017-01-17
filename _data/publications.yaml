@@ -24,6 +24,10 @@
   doi: 10.1016/j.bpj.2015.08.015
   date: 2015-10-20
   pdf: mdtraj.pdf
+  preprint:
+    service: "bioRxiv"
+    link: "https://doi.org/10.1101/008896"
+    date: 2014-09-09
 
 - title: "User-friendly software for analyzing MD simulations"
   journal: "Nature Methods 12, 1116"
