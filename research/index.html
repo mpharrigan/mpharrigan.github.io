@@ -49,6 +49,9 @@ active: research
           {{pub.date | date: '%B %d, %Y'}} <br/>
           {{pub.journal}}. 
           <a href="http://dx.doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+          {% if pub.preprint %}
+          <a href="{{pub.preprint.link}}">[{{pub.preprint.service}}]</a>
+          {% endif %}
           {% if pub.pdf %}
           <a href="{{pub.pdf}}">[pdf]</a>
           {% endif %}
