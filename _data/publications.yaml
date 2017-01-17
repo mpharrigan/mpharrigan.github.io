@@ -55,9 +55,13 @@
     - Kyle A. Beauchamp
     - Robert T. McGibbon
     - Vijay S. Pande
-  journal: "bioRxiv"
-  doi: 10.1101/084020
-  date: 2016-10-30
+  preprint:
+    servie: "bioRxiv"
+    link: "http://dx.doi.org/10.1101/084020"
+    date: 2016-10-30
+  journal: "Biophys. J., 112, 10--15"
+  doi: "10.1016/j.bpj.2016.10.042"
+  date: 2017-01-10
   
 - title: "OpenMM 7: Rapid Development of High Performance Algorithms for Molecular Dynamics"
   authors:
