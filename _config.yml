@@ -8,6 +8,7 @@ exclude:
     - '/node_modules/'
     - '/Gruntfile.js'
     - '/package.json'
+    - '/build.py'
 defaults:
     - scope:
         path: ""
