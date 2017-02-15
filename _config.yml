@@ -9,11 +9,9 @@ exclude:
     - '/build.py'
 defaults:
     - scope:
-        path: ""
-        type: "posts"
+        path: "2016"
       values:
-        excerpt_seperator: "<!--more-->"
-        active: posts
+        active: posts/
         layout: post
 
 compress_html:

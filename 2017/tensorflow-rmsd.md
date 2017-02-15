@@ -1,5 +1,6 @@
 ---
 layout: post
+active: posts/
 title: Tensorflow RMSD
 lead: |
     <p class="lead">Using Tensorflow for things it was not designed to do</p>
