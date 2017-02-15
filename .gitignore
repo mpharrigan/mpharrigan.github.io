@@ -4,6 +4,4 @@
 /Gemfile.lock
 /.jekyll-metadata
 /node_modules/
-
 *.swp
-/ignore
