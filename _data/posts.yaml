@@ -1,0 +1,68 @@
+- url: /lktica/
+  title: Landmark Kernel tICA for Conformational Dynamics
+  date: 2017-04-03
+  excerpt: |+
+    A pre-print for a publication on computationally tractable non-linear tICA with interesting connections
+    to Markov state modeling.
+
+- url: /2016/12/01/trjconv-from-python.html
+  title: Use Gromacs Utilities from Python
+  excerpt: |+
+    Gromacs has some neat command-line programs to interact with MD trajectories. A lot of them prompt for
+    additional input when you're running them. I'll show you how to use Python's `subprocess` module to deal with this.
+
+
+- url: /2016/09/29/gmrq.html
+  title: GMRQ vs. Lag-time
+  excerpt: |+
+    Github user [jeiros](https://github.com/jeiros) asked why you can't use GMRQ to find the best
+    lag-time when building an MSM. He wanted to know why the score appears to decrease with increasing lag-time.
+
+    I examine the nature of MSM eigenvalues to see what's going on.
+
+
+- url: /2016/08/02/parallel.html
+  title: Easy parallelization with GNU parallel
+  excerpt: |+
+    There are an abundance of “scientific workflow” frameworks, job schedulers, queuing systems, MPI implementations,
+    and language-level primitives for multiprocessing. Sometimes, though, you just have to do a task a bunch of times.
+    Here, I introduce [GNU `parallel`](https://www.gnu.org/software/parallel/) for a simple task and a more advanced task.
+
+
+- url: /2016/07/30/nsf.html
+  title: NaV in NSF Press Release
+  excerpt: |+
+    The NSF recently <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=189347">announced</a> a new initiative
+    to support the development of scientific software. One of my renderings
+    (in this case, voltage gated sodium channel) was used as the press image! Unfortunately, the image is
+    credited to Virginia Tech… <strong>Update:</strong> the attribution has been fixed.
+    Thanks to all involved for the speedy correction.</p>
+
+
+- url: /2016/05/17/background-ssh.html
+  title: Running SSH port forwarding in the background
+  excerpt: |+
+    Jupyter Notebook is essential for interacting with data. Even better,
+    you can run it on a server (that has your data, more processors, more RAM, ...)
+    but access it from anywhere. By default, Jupyter only serves data to `localhost`
+    on port 8888.
+
+    Instead of opening your notebook server to the world, you can set up port forwarding
+    over ssh to piggy-back on the security it provides. In this post,
+    we'll set up a persistent port-forwarding connection in the background.
+
+
+- url: /2016/04/19/ffmpeg.html
+  title: Making ffmpeg work
+  excerpt: |+
+    When you have proteins in space evolving over time, you have to make a
+    movie. VMD is a love-hate program that is very capable of nice renders of
+    biophysical systems.  I like to have more control over the transformation
+    of each rendered frame into a movie file.
+
+    `ffmpeg` is a command-line program that can do this. If you try with the
+    default options, your movie will have lots of compression scarring and may
+    not play in most contexts.
+
+
+

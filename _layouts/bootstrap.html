@@ -43,13 +43,30 @@ layout: compress
 
   {{content}}
 
-  <div class="container">
-    <hr>
-    <footer><p>
-      &copy; Matthew P. Harrigan 2017
-      | Github <a href="https://github.com/mpharrigan/">@mpharrigan</a>
-      | ORCID <a href="https://orcid.org/0000-0001-9412-0553">0000-0001-9412-0553</a>
-    </p></footer>
+  <style>
+    footer a{
+      color: #d0d5d8;
+    }
+    footer a:hover{
+      color: #2aabd2;
+    }
+  </style>
+  <div class="container-fluid bg-inverse text-muted" style="padding: 2rem 0;">
+    <footer class="container">
+      <div class="row" style="padding-top:1rem;">
+        <div class="col">
+          <dl class="row">
+            <dt class="col-sm-1">E-mail</dt>
+            <dd class="col-sm-11"><a href="mailto:harrigan@stanford.edu">harrigan@stanford.edu</a></dd>
+            <dt class="col-sm-1">Github</dt>
+            <dd class="col-sm-11"><a href="https://github.com/mpharrigan/">@mpharrigan</a></dd>
+            <dt class="col-sm-1">ORCID</dt>
+            <dd class="col-sm-11"><a href="https://orcid.org/0000-0001-9412-0553">0000-0001-9412-0553</a></dd>
+          </dl>
+          <p>&copy; Matthew P. Harrigan 2017</p>
+        </div>
+      </div>
+    </footer>
   </div>
 
   <script src="{{site.url}}/assets/jquery.min.js"></script>

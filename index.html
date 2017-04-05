@@ -18,19 +18,62 @@ title: Matthew Harrigan
   </div>
 </div>
 
-<div class="container">
+<div class="container-fluid" style="margin-bottom:1rem;"><div class="container">
+  <h1>Research</h1>
+  <hr>
+  <!-- see _data/content/research.yaml for content -->
+  {% for cont in site.data.research %}
+  <div class="row" style="padding:2rem 0;">
+    <div class="col-sm-4 align-self-center">
+      <img src="research/{{cont.image}}" class="img-fluid" />
+    </div>
+    <div class="col-sm-8">
+      <h2>{{cont.title}}</h2>
+      <p class="lead">{{cont.lead}}</p>
+      {{cont.content | markdownify}}
+    </div>
+  </div>
+  {% endfor %}
   <div class="row">
-    {% for blurb in site.data.index.blurbs %}
-    <div class="col-md-4">
-      <h2>{{ blurb.title }}</h2>
-      {{ blurb.text | markdownify }}
-      <p class="readmore">
-        <a href="{{site.url}}/{{blurb.link}}">Read more &raquo;</a>
+    <div class="col">
+      <p class="text-center" style="font-size: 2rem; font-weight:300; padding:1rem 0;">
+        For a complete list of papers, go to the <a href="research/#papers">research</a> page.
       </p>
     </div>
-    {% endfor %}
   </div>
-</div>
+</div></div>
+
+<style>
+  .url-list li + li {
+    margin-left: 1rem;
+  }
+</style>
+
+
+<div class="container-fluid bg-faded" style="padding:1rem 0; margin-bottom:0"><div class="container">
+  <h1>Software</h1>
+  <hr>
+  <!-- see _data/content/software.yaml for content -->
+  {% for cont in site.data.software %}
+  <div class="row" style="padding:2rem 0;">
+    <div class="col-sm-4">
+      <img src="software/{{cont.image}}" class="img-fluid" />
+    </div>
+    <div class="col-sm-8">
+      <h2>{{cont.title}}</h2>
+      <ul class="list-inline url-list">
+        {%for link in cont.links%}
+        <li class="list-inline-item" style="">
+          <a href="{{link.href}}">{{link.text}}</a>
+        </li>
+        {%endfor%}
+      </ul>
+      <p class="lead">{{cont.lead}}</p>
+      {{cont.content | markdownify}}
+    </div>
+  </div>
+  {% endfor %}
+</div></div>
 
 <!--
 vim: ts=2 sw=2 et

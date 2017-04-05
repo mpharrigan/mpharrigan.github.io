@@ -3,14 +3,16 @@
 image: mph-2016ecr2.jpg
 jumbo: |+
   I am a PhD student in the Department of Chemistry at Stanford University.
-  I work with [Vijay Pande] to study protein dynamics through computation.
+  I work with [Vijay Pande] to study protein dynamics with computation and deep learning.
 
   We use and develop [tools] like [OpenMM] for GPU-accelerated molecular
   dynamics and [MSMBuilder] with [MDTraj] for cutting-edge,
   statistically-motivated analysis.
 
-  My research interests include: accelerated sampling, 
-  solvent dynamics, and ion channels.
+  With bigger systems and longer simulations, aggressive dimensionality
+  reduction is required to truly learn from simulation.
+  I'm using ideas and algorithms from machine-learning to construct
+  meaningful models of protein dynamics.
 
   [tools]: {{site.url}}/software/
 
@@ -18,19 +20,4 @@ jumbo: |+
   [openmm]: http://openmm.org/
   [msmbuilder]: http://msmbuilder.org/
   [mdtraj]: http://mdtraj.org/
-
-blurbs:
-  - title: Simulation
-    link: research/
-    text: Molecular dynamics offers atom-level resolution of biological
-      systems at biological timescales. I'm investigating accelerated
-      sampling schemes and using simulation to study novel systems of
-      interest.
-  - title: Analysis
-    link: research/
-    text: 
-      With bigger systems and longer simulations, aggressive analysis is
-      needed to make sense of this fire hose of timeseries data.
-      We're using ideas from statistics and machine-learning to construct
-      meaningful models of protein dynamics.
 

@@ -1,0 +1,24 @@
+---
+layout: fullpage
+title: About Matthew
+image: ggb.jpg
+active: about
+---
+
+
+<div class="container" style="padding: 1rem 0;">
+  <div class="row">
+    <div class="col-sm-8">
+      <ul style="font-size: larger; list-style-type: square;">
+        {% for item in site.data.about %}
+        <li>{{ item.text|markdownify }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-sm-4">
+      <img class="img-fluid" src="ggb.jpg">
+    </div>
+  </div>
+</div>
+<!-- vim: tw=70
+-->

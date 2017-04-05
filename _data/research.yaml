@@ -1,46 +1,61 @@
-- title: Ion channels
-  image: kchan.png
+
+- title: Deep learning
+  image: muller.png
+  lead: |+
+    I'm using tools and algorithms borrowed from recent work in deep learning to
+    build better models for protein dynamics.
   content: |+
+    A side effect of the recent boom in deep learning has been the proliferation
+    of well-engineered [libraries][tensorflow] for performing arbitrary symbolic differentiation.
+    I'm using these tools to enrich our current dynamical modeling techniques.
+
+    In addition, I'm investigating the use of deep networks to find
+    better feature representations of biomolecules.
+
+    [tensorflow]: https://www.tensorflow.org/
+
+- title: Ion channels
+  image: nav.jpg
+  lead: |+
     Sodium channels initiate signaling in neurons and other cells which go on
     to become sensations of pleasure and pain, as well as thoughts and
-    feelings.  In a collaboration with the [duBois] lab and with the help of
-    [Folding@Home], we are launching a large scale molecular dynamics study of
-    the voltage gated sodium channel.
+    feelings.  Potassium channels return excitable cells to normalcy.
 
-    We're studying the dynamics of transitions between the open and closed
-    states mediated by the voltage sensing domains. Our experimental
-    collaborators will probe sodium channel function through the use of natural
-    toxins secreted by frogs in the Amazon rain forest.  By combining theory
-    and experiment, we can propose and test derivatives of these toxins which
-    have positive therapeutic effects.
+  content: |+
+    In collaboration with the [duBois] lab and with the help of
+    [Folding@Home], we are conducting large scale molecular dynamics study of
+    a voltage gated sodium channel to compliment experimental work to
+    probe sodium channel function through the use of natural
+    toxins secreted by frogs in the Amazon rain forest.  
+
+    In collaboration with [Pfizer] and [Folding@Home], we studied a
+    mechanosensative potassium channel transitioning between stretched
+    and compressed conformations.
 
     [dubois]: http://duboislab.stanford.edu/
     [folding@home]: https://folding.stanford.edu/
-- title: Markov Modelling
-  image: msm.jpg
-  content: |+
+    [pfizer]: http://www.pfizer.com
+
+
+- title: Markov Modeling
+  image: trektic.png
+  lead: |+
     Our lab develops and applies novel statistical techniques to
     understand and interpret the huge volume of data returned from a
-    molecular dynamics study. Particularly, we use Markov State Models
-    (MSMs) which model conformational dynamics as a series of memoryless
-    jumps between microstates. 
-
-    ### Solvent dynamics
+    molecular dynamics study. 
+  content: |+
+    Particularly, we use Markov state models
+    (MSMs) and time-structure-based independent component analysis (tICA)
+    to draw interpretable conclusions from large timeseries data sets.
 
     I've introduced a new method for including solvent degrees of freedom
-    in MSM analysis. Check out the [paper][shellspaper] introducing
-    the method and the [code][shellsgithub]. We're working on applying it
-    to new and exciting systems.
+    in MSM analysis described in this [paper][shellspaper].
+
+    I've introduced a computationally tractable form of non-linear tICA
+    that is analogous to an MSM with soft states [here][lkticapaper].
 
     [shellspaper]: http://dx.doi.org/10.1021/ct5010017
-    [shellsgithub]: https://github.com/mpharrigan/wetmsm
+    [lkticapaper]: /lktica/
 
-    ### Adaptive sampling
-
-    MSMs offer a convenient framework for analyzing the results of
-    simulations, but they can also be used to direct simulation. In an
-    adaptive sampling scheme, uncertainty in particular MSM state
-    transition probabilities are used to seed new simulations to speed
-    convergence of the model.
 
 # vim: ts=2 sw=2 et tw=75

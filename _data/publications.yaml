@@ -91,8 +91,12 @@
     - Veerabahu Shanmugasundaram
     - Rajiah Aldrin Denny
     - Vijay S. Pande
-  journal: "bioRxiv"
-  doi: 10.1101/092155
-  date: 2016-12-07
+  preprint:
+    service: "bioRxiv"
+    link: "http://dx.doi.org/10.1101/092155"
+    date: 2016-12-07
+  journal: "Scientific Reports, 7, 632"
+  doi: 10.1038/s41598-017-00256-y
+  date: 2017-04-04
 
 # vim: ts=2 sw=2 et

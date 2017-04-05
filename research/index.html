@@ -5,17 +5,20 @@ active: research
 ---
 
 <!-- see _data/content/research.yaml for content -->
+<div class="container-fluid" style="margin-bottom:1rem;"><div class="container">
 {% for cont in site.data.research %}
-<div class="row">
-  <div class="col-sm-3">
+<div class="row" style="padding: 2rem 0;">
+  <div class="col-sm-4 align-self-center">
     <img src="{{cont.image}}" class="img-fluid" />
   </div>
-  <div class="col-sm-9">
+  <div class="col-sm-8">
     <h2>{{cont.title}}</h2>
+    <p class="lead">{{cont.lead}}</p>
     {{cont.content | markdownify}}
   </div>
 </div>
 {% endfor %}
+</div></div>
 
 <style>
   li.list-inline-item::before {
@@ -36,9 +39,11 @@ active: research
   }
 </style>
 
+<div class="container-fluid bg-faded" style="padding:1rem 0; margin-bottom:0"><div class="container">
 <div class="row">
   <div class="col-lg-9 col-xs-12">
-    <h2>Papers</h2>
+    <h1 id="papers">Papers</h1>
+    <hr>
 
     <ol id="pubs">
       {% for pub in site.data.publications %}
@@ -62,6 +67,7 @@ active: research
 
   </div>
 </div>
+</div></div>
 
 <!-- vim: ts=2 sw=2 et
 -->
