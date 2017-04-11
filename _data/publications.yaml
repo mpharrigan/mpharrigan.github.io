@@ -95,6 +95,10 @@
     service: "bioRxiv"
     link: "http://dx.doi.org/10.1101/092155"
     date: 2016-12-07
+  blog:
+    service: "medium"
+    link: "https://medium.com/@pandelab/gating-of-the-trek-2-ion-channel-8e486eaebc6b"
+    date: 2017-04-111
   journal: "Scientific Reports, 7, 632"
   doi: 10.1038/s41598-017-00256-y
   date: 2017-04-04
