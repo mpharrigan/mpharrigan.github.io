@@ -57,6 +57,9 @@ active: research
           {% if pub.preprint %}
           <a href="{{pub.preprint.link}}">[{{pub.preprint.service}}]</a>
           {% endif %}
+          {% if pub.blog %}
+          <a href="{{pub.blog.link}}">[{{pub.blog.service}}]</a>
+          {% endif %}
           {% if pub.pdf %}
           <a href="{{pub.pdf}}">[pdf]</a>
           {% endif %}
