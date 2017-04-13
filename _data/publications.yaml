@@ -102,5 +102,13 @@
   journal: "Scientific Reports, 7, 632"
   doi: 10.1038/s41598-017-00256-y
   date: 2017-04-04
+  
+- title: "Landmark Kernel tICA For Conformational Dynamics"
+  authors:
+    - Matthew P. Harrigan
+    - Vijay S. Pande
+  journal: "bioRxiv"
+  doi: 10.1101/123752
+  date: 2017-04-04
 
 # vim: ts=2 sw=2 et
