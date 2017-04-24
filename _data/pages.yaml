@@ -1,10 +1,12 @@
 - displaytext: About
-  link: about
+  link: about/
 - displaytext: Research
-  link: research
+  link: "#research"
+- displaytext: Papers
+  link: papers/
 - displaytext: Software
-  link: software
+  link: "#software"
 - displaytext: Posts
-  link: posts
+  link: posts/
 
 # vim: ts=2 sw=2 et

@@ -1,0 +1,66 @@
+---
+layout: fullpage
+title: Papers
+active: papers/
+lead: |+
+  <div class="row">
+    <div class="col-md-10">
+      <p class="lead">
+        A complete list of my publications. For a broader overview of my research interests, check out the
+        <a href="/#research">research</a> section
+      </p>
+    </div>
+  </div>
+---
+
+<style>
+  li.list-inline-item::before {
+    content: "\2013";
+    margin-right: 0.2rem;
+  }
+  .list-inline-item:not(:last-child){
+    margin-right: 0.8rem;
+  }
+  ol#pubs {
+    font-size: larger;
+  }
+  ol#pubs .pubcontent{
+    font-size: 1rem;
+  }
+  ol#pubs>li {
+    margin-bottom: 1rem;
+  }
+</style>
+
+<div class="container-fluid" style="padding:1rem 0; margin-bottom:0"><div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-xs-12">
+      <ol id="pubs">
+        {% for pub in site.data.publications %}
+        <li>
+          <div class="pubcontent">
+            <h5>{{pub.title}}</h5>
+            {% if pub.authors %}{{pub.authors | join: '; '}} <br/>{% endif %}
+            {{pub.date | date: '%B %d, %Y'}} <br/>
+            {{pub.journal}}.
+            <a href="http://dx.doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+            {% if pub.preprint %}
+            <a href="{{pub.preprint.link}}">[{{pub.preprint.service}}]</a>
+            {% endif %}
+            {% if pub.blog %}
+            <a href="{{pub.blog.link}}">[{{pub.blog.service}}]</a>
+            {% endif %}
+            {% if pub.pdf %}
+            <a href="{{pub.pdf}}">[pdf]</a>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+
+    </div>
+  </div>
+</div></div>
+
+<!-- vim: ts=2 sw=2 et
+-->

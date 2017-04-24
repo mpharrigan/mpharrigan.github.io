@@ -31,7 +31,7 @@ layout: compress
           {% for pg in site.data.pages %}
           <!-- check which link we should activate -->
           <li class="nav-item{% if pg.link == page.active %} active{% endif %}">
-            <a class="nav-link" href="{{site.url}}/{{pg.link}}/">
+            <a class="nav-link" href="{{site.url}}/{{pg.link}}">
               {{pg.displaytext}}
             </a>
           </li>
