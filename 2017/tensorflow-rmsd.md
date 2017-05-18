@@ -171,7 +171,7 @@ how performant it would be if you could.
 
 Instead, I implemented a [custom Tensorflow "op"](https://www.tensorflow.org/extend/adding_an_op).
 At first, I was intimidated by having to build and keep track of a custom 
-Tensorflow installation. Luckily, tensorflow will hapily load shared libraries
+Tensorflow installation. Luckily, Tensorflow will happily load shared libraries
 to register Ops at runtime. Even better, a Pande Group Alumn Imran Haque 
 [implemented](https://github.com/pandegroup/IRMSD) 
 a fast (R)MSD calculation implementation in C that I could wrap.
