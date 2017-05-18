@@ -18,7 +18,7 @@ allowing you to turn [edges into cats](https://affinelayer.com/pixsrv/index.html
 In our lab, we're applying these techniques to 
 small molecule [drug discovery](https://arxiv.org/abs/1611.03199).
 
-A by-product of the revolution in deep learning has been the production of several
+A by-product of the revolution in deep learning has been the development of several
 high-quality open-source machine-learning frameworks that can compute gradients
 of arbitrary operations. Google's [Tensorflow](https://www.tensorflow.org/) may
 be the best known. My research has focused on understanding the results of large

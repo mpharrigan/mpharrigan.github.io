@@ -1,3 +1,21 @@
+- url: /2017/tensorflow-rmsd.html
+  title: Tensorflow RMSD
+  date: 2017-05-17
+  excerpt: |+
+    Deep learning has revolutionized image and speech processing.
+    In our lab, we’re applying these techniques to small molecule drug discovery.
+
+    A by-product of the revolution in deep learning has been several high-quality
+    open-source machine-learning frameworks that can compute gradients of arbitrary operations.
+    You can easily imagine framing the prediction of small molecule binding energies as a learning problem;
+    but can we leverage some of the deep learning advances for molecular dynamics?
+
+    A common operation in biophysics is computing the similarity of two protein poses
+    with the RMSD distance metric. In this post, I'll walk you through my implementation of RMSD
+    first as a composition of normal "Ops" and then via writing a custom Op. As an example,
+    I find a consensus structure and a KMeans-inspired RMSD-based clustering algorithm.
+
+
 - url: /lktica/
   title: Landmark Kernel tICA for Conformational Dynamics
   date: 2017-04-03
