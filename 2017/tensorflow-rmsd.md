@@ -4,6 +4,10 @@ title: Tensorflow RMSD
 lead: |
     <p class="lead">Using Tensorflow for things it was not designed to do</p>
     <p class="lead">Check out the code and report issues on <a href="https://github.com/mdtraj/tftraj">GitHub</a></p>
+    <p class="lead">This post originally appeared on the 
+        <a href="https://medium.com/@pandelab/tensorflow-rmsd-using-tensorflow-for-things-it-was-not-designed-to-do-ada4c9aa0ea2">
+        Pande Lab Blog</a>
+    </p>
 ---
 
 <figure class="figure">
