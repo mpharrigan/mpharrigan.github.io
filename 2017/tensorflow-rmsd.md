@@ -3,7 +3,7 @@ layout: post
 title: Tensorflow RMSD
 lead: |
     <p class="lead">Using Tensorflow for things it was not designed to do</p>
-    <p class="lead">Check out the code and report issues on <a href="#">GitHub</a></p>
+    <p class="lead">Check out the code and report issues on <a href="https://github.com/mdtraj/tftraj">GitHub</a></p>
 ---
 
 <figure class="figure">
