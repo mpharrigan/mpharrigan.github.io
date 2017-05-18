@@ -341,15 +341,19 @@ Now you can do tICA or [make an MSM](http://msmbuilder.org) in this nice space.
 
 ## Code Availability
 
-All code is available on [Github](). Make sure you check out the README for
-installation instructions, as the custom Op requires a working c++ compiler.
+All code is available on [Github](https://github.com/mdtraj/tftraj). 
+Make sure you check out the [README](https://github.com/mdtraj/tftraj/blob/master/README.md) 
+for installation instructions, as the custom Op requires a working c++ compiler.
 The consensus example, clustering example, and profiling script are found in 
-the [examples]() folder and require the
+the [examples](https://github.com/mdtraj/tftraj/tree/master/examples) 
+folder and require the
 [fs peptide](https://figshare.com/articles/Fs_MD_Trajectories/1030363)
 dataset.
 
-The native tensorflow implementation lives in [rmsd.py](). The low level code
-for the custom Op lives in ths [rmsd/]() subfolder, specifically [rmsd.cpp]().
-Finally,
-[rmsd_op.py]() contains a convenience function for loading the shared object
+The native tensorflow implementation lives in [rmsd.py](https://github.com/mdtraj/tftraj/blob/master/tftraj/rmsd.py).
+The low level code for the custom Op lives in the
+[rmsd/](https://github.com/mdtraj/tftraj/tree/master/tftraj/rmsd)
+subfolder, specifically [rmsd.cpp](https://github.com/mdtraj/tftraj/blob/master/tftraj/rmsd/rmsd.cpp).
+Finally, [rmsd_op.py](https://github.com/mdtraj/tftraj/blob/master/tftraj/rmsd_op.py)
+contains a convenience function for loading the shared object
 that registers the Op. It also implements the gradients (in Python).
