@@ -191,10 +191,10 @@ trajectories. Specifically, between 2800 (stride = 100) frames and 28 targets
 
 Implementation | Time / ms
 ----------|----------
+TF Native Ops | 22,843
 MDTraj    |   33.3
 TF Custom Op   |    0.9
 TF Custom Op (w/rot)   |    1.6
-TF Native Ops | 22,843
 {: .table}
 
 ## What about gradients?
