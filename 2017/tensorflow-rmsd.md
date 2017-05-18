@@ -25,7 +25,7 @@ be the best known. My research has focused on understanding the results of large
 molecular dynamics simulations of proteins and other biomolecules.
 You can easily imagine framing the prediction of small molecule binding energies as
 a learning problem; can we leverage some of the deep learning advances for 
-molecular dynamics for things other than [artsy protein images](https://twitter.com/mmsltn/status/759590171427745792)?
+molecular dynamics for things in addition to [artsy protein images](https://twitter.com/mmsltn/status/759590171427745792)?
 
 A common operation in biophysics is computing the similarity of two protein
 poses (conformations) with the [RMSD distance metric](https://en.wikipedia.org/wiki/Root-mean-square_deviation_of_atomic_positions).
