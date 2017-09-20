@@ -1,11 +1,7 @@
 - displaytext: About
   link: about/
-- displaytext: Research
-  link: "#research"
 - displaytext: Papers
   link: papers/
-- displaytext: Software
-  link: "#software"
 - displaytext: Posts
   link: posts/
 
