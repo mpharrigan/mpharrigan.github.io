@@ -29,10 +29,10 @@
     link: "https://doi.org/10.1101/008896"
     date: 2014-09-09
 
-- title: "User-friendly software for analyzing MD simulations"
-  journal: "Nature Methods 12, 1116"
-  doi: 10.1038/nmeth.3669
-  date: 2015-12-01
+#- title: "User-friendly software for analyzing MD simulations"
+#  journal: "Nature Methods 12, 1116"
+#  doi: 10.1038/nmeth.3669
+#  date: 2015-12-01
 
 - title: "Osprey: Hyperparameter Optimization for Machine Learning"
   authors:
@@ -80,9 +80,14 @@
     - Matthew P. Harrigan
     - Bernard R. Brooks
     - Vijay S. Pande
-  journal: "bioRxiv"
-  doi: 10.1101/091801
-  date: 2016-12-06
+  preprint:
+    service: "bioRxiv"
+    link: "http://dx.doi.org/10.1101/091801"
+    date: 2016-12-06
+  journal: "PLOS Comp. Bio. 13(7): e1005659"
+  doi: 10.1371/journal.pcbi.1005659
+  date: 2017-07-26
+
   
 - title: "Markov modeling reveals novel intracellular modulation of the human TREK-2 selectivity filter"
   authors:
