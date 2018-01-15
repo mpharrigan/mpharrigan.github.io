@@ -2,17 +2,15 @@
 
 image: mph-2016ecr2.jpg
 jumbo: |+
-  I am a recent PhD graduate from the Department of Chemistry at Stanford University.
-  I worked with [Vijay Pande] to study protein dynamics with computation and machine learning.
+  I currently write quantum software for [Rigetti Computing] in Berkeley, California.
+  Prior to that,
+  I worked with [Vijay Pande] at Stanford to study protein dynamics with computation and machine learning.
 
-  The lab uses and develops [tools] like [OpenMM] for GPU-accelerated molecular
-  dynamics and [MSMBuilder] with [MDTraj] for cutting-edge,
-  statistically-motivated analysis.
+  With domains as complex as biophysics or quantum information, scientific computing [tools] are
+  essential for modern research.
+  I help develop some of these tools like [MSMBuilder] and [MDTraj] for analysis of molecular dynamics data
+  and [PyQuil] for quantum programming.
 
-  With bigger systems and longer simulations, aggressive dimensionality
-  reduction is required to truly learn from simulation.
-  I've used ideas and algorithms from machine-learning to construct
-  meaningful models of protein dynamics.
 
   [tools]: #software
 
@@ -20,4 +18,6 @@ jumbo: |+
   [openmm]: http://openmm.org/
   [msmbuilder]: http://msmbuilder.org/
   [mdtraj]: http://mdtraj.org/
+  [rigetti computing]: https://rigetti.com/
+  [pyquil]: https://github.com/rigetticomputing/pyquil
 
