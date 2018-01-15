@@ -18,3 +18,4 @@ with open('node_modules/pygments-css/default.css') as inf, open('assets/pygments
 
 shutil.copy2('node_modules/bootstrap/dist/js/bootstrap.min.js', 'assets/bootstrap.min.js')
 shutil.copy2('node_modules/jquery/dist/jquery.min.js', 'assets/jquery.min.js')
+shutil.copy2('node_modules/popper.js/dist/umd/popper.js', 'assets/popper.js')
