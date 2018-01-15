@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
-    "bootstrap": "4.0.0-beta.2",
+    "bootstrap": "4.0.0-beta.3",
     "clean-css-cli": "^4.1.6",
     "jquery": "^3.1.1",
     "postcss-cli": "^4.1.0",
