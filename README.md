@@ -32,3 +32,14 @@ Host a dev version of the site with
 which just does
 
     bundle exec jekyll serve --incremental
+
+
+Maintenance
+-----------
+
+Update npm dependencies with
+
+    npm update --save-dev
+    
+You might want to verify changes from node_modules/bootstrap/scss/bootstrap.scss
+have been ported to scss/mph.scss

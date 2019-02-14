@@ -10,12 +10,12 @@
   "author": "Matthew Harrigan",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^7.1.2",
-    "bootstrap": "4.0.0-beta.3",
-    "clean-css-cli": "^4.1.6",
-    "jquery": "^3.1.1",
+    "autoprefixer": "^7.2.6",
+    "bootstrap": "^4.3.1",
+    "clean-css-cli": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
     "postcss-cli": "^4.1.0",
-    "pygments-css": "^1.0.0",
-    "popper.js": "^1.12.9"
+    "pygments-css": "^1.0.0"
   }
 }
