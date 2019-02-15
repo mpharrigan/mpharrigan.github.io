@@ -3,7 +3,7 @@ layout: bootstrap
 title: Matthew Harrigan
 ---
 
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid" style="margin-bottom: 0">
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
@@ -17,30 +17,21 @@ title: Matthew Harrigan
   </div>
 </div>
 
+<!--
 <div id="research" class="container-fluid" style="margin-bottom:1rem;"><div class="container">
-  <h1>Research</h1>
+  <h2>Research</h2>
   <hr>
-  <!-- see _data/content/research.yaml for content -->
-  {% for cont in site.data.research %}
-  <div class="row" style="padding:2rem 0;">
-    <div class="col-sm-4 align-self-center">
-      <img src="research/{{cont.image}}" class="img-fluid" />
-    </div>
-    <div class="col-sm-8">
-      <h2>{{cont.title}}</h2>
-      <p class="lead">{{cont.lead}}</p>
-      {{cont.content | markdownify}}
-    </div>
-  </div>
-  {% endfor %}
+  <p class="lead">Can put something here maybe.</p>
+
   <div class="row">
     <div class="col">
-      <p class="text-center" style="font-size: 2rem; font-weight:300; padding:1rem 0;">
+      <p class="text-center" style="font-size: 1.5rem; font-weight:300; padding:1rem 0;">
         For a complete list of papers, go to the <a href="papers/">papers</a> page.
       </p>
     </div>
   </div>
 </div></div>
+-->
 
 <style>
   .url-list li + li {
@@ -48,11 +39,11 @@ title: Matthew Harrigan
   }
 </style>
 
-
+<!--
 <div id="software" class="container-fluid bg-light" style="padding:1rem 0; margin-bottom:0"><div class="container">
   <h1>Software</h1>
   <hr>
-  <!-- see _data/content/software.yaml for content -->
+  <! -- see _data/content/software.yaml for content -- >
   {% for cont in site.data.software %}
   <div class="row" style="padding:2rem 0;">
     <div class="col-sm-4">
@@ -73,6 +64,7 @@ title: Matthew Harrigan
   </div>
   {% endfor %}
 </div></div>
+-->
 
 <!--
 vim: ts=2 sw=2 et
