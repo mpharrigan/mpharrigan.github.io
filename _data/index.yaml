@@ -4,7 +4,7 @@ image: mph-2016ecr2.jpg
 jumbo: |+
   Quantum computing promises exponential speed-up for certain computational problems---at least in theory.
   Recently, physics labs around the world have began constructing near-term intermediate-scale quantum computers
-  composed of tens of noisy qubits. One such lab can be found at [Rigetti Computing] in Berekely, California
+  composed of tens of noisy qubits. One such lab can be found at [Rigetti Computing] in Berkeley, California
   where I work writing software
   like [pyQuil] to explore and develop algorithms on these machines.
 
