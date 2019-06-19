@@ -3,7 +3,7 @@
 image: mph-2016ecr2.jpg
 jumbo: |+
   Quantum computing promises exponential speed-up for certain computational problems---at least in theory.
-  Recently, research groups around the world have began constructing research-grade quantum computers
+  Recently, research groups around the world have begun constructing research-grade quantum computers
   composed of tens of noisy qubits. [Google Quantum] is one such group, where I work writing software to unlock near-term
   quantum computing applications.
 
