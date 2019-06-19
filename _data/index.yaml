@@ -3,12 +3,12 @@
 image: mph-2016ecr2.jpg
 jumbo: |+
   Quantum computing promises exponential speed-up for certain computational problems---at least in theory.
-  Recently, physics labs around the world have began constructing near-term intermediate-scale quantum computers
-  composed of tens of noisy qubits. One such lab can be found at [Rigetti Computing] in Berkeley, California
-  where I work writing software
-  like [pyQuil] to explore and develop algorithms on these machines.
+  Recently, research groups around the world have began constructing research-grade quantum computers
+  composed of tens of noisy qubits. [Google Quantum] is one such group, where I work writing software to unlock near-term
+  quantum computing applications.
 
-  Prior to joining Rigetti,
+  Prior to joining Google,
+  I worked at [Rigetti Computing]. Before that,
   I worked with [Vijay Pande] at Stanford to study protein dynamics with computation and machine learning.
   and developed scientific computing tools like [MSMBuilder] and [MDTraj] for analysis of molecular dynamics data.
 
@@ -18,4 +18,5 @@ jumbo: |+
   [mdtraj]: http://mdtraj.org/
   [rigetti computing]: https://rigetti.com/
   [pyquil]: https://github.com/rigetticomputing/pyquil
+  [google quantum]: https://ai.google/research/teams/applied-science/quantum-ai/
 
