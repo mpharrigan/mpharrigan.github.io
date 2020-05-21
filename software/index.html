@@ -1,34 +1,5 @@
 ---
 layout: fullpage
 title: Software
+lead: This page has been removed.
 ---
-
-
-<style>
-  .url-list li + li {
-    margin-left: 1rem;
-  }
-</style>
-
-<!-- see _data/content/software.yaml for content -->
-<div class="container-fluid" style="margin-bottom:1rem;"><div class="container">
-{% for cont in site.data.software %}
-<div class="row" style="padding:2rem 0;">
-  <div class="col-sm-4">
-    <img src="{{cont.image}}" class="img-fluid" />
-  </div>
-  <div class="col-sm-8">
-    <h2>{{cont.title}}</h2>
-    <ul class="list-inline url-list">
-      {%for link in cont.links%}
-      <li class="list-inline-item" style="">
-        <a href="{{link.href}}">{{link.text}}</a>
-      </li>
-      {%endfor%}
-    </ul>
-    <p class="lead">{{cont.lead}}</p>
-    {{cont.content | markdownify}}
-  </div>
-</div>
-{% endfor %}
-</div></div>

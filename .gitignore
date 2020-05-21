@@ -5,3 +5,4 @@
 /.jekyll-metadata
 /node_modules/
 *.swp
+/.vscode/

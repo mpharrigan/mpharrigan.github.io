@@ -2,15 +2,9 @@
 
 image: mph-2016ecr2.jpg
 jumbo: |+
-  Quantum computing promises exponential speed-up for certain computational problems---at least in theory.
-  Recently, research groups around the world have begun constructing research-grade quantum computers
-  composed of tens of noisy qubits. [Google Quantum] is one such group, where I work writing software to unlock near-term
-  quantum computing applications.
+  I write quantum software as a member of the [Google Quantum] research group.
 
-  Prior to joining Google,
-  I worked at [Rigetti Computing]. Before that,
-  I worked with [Vijay Pande] at Stanford to study protein dynamics with computation and machine learning.
-  and developed scientific computing tools like [MSMBuilder] and [MDTraj] for analysis of molecular dynamics data.
+  I received my PhD under [Vijay Pande] at Stanford to study protein dynamics with computation and machine learning.
 
   [vijay pande]: http://pande.stanford.edu/
   [openmm]: http://openmm.org/
