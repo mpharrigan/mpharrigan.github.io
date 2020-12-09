@@ -2,7 +2,7 @@
 
 image: mph-2016ecr2.jpg
 jumbo: |+
-  I write quantum software as a member of the [Google Quantum] research group.
+  I write quantum software with [Google Quantum AI].
 
   I received my PhD under [Vijay Pande] at Stanford to study protein dynamics with computation and machine learning.
 
@@ -12,5 +12,5 @@ jumbo: |+
   [mdtraj]: http://mdtraj.org/
   [rigetti computing]: https://rigetti.com/
   [pyquil]: https://github.com/rigetticomputing/pyquil
-  [google quantum]: https://ai.google/research/teams/applied-science/quantum-ai/
+  [google quantum ai]: https://quantumai.google/
 
